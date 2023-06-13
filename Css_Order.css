@@ -7,9 +7,10 @@
     --text-header-color: #000000;
     --border-color: #dbdbdb;
     --star-gold-color: #FFCE3E;
+    --header-navbar-second: #F5DEB3;
 
 
-    --header-height: 240px;
+    --header-height: 180px;
     --navbar-height: 80px;
     --header-with-search-height: calc(var(var(--header-height) - var(var(--navbar-height))))
 }
@@ -764,7 +765,6 @@ html {
 .header-with-search {
     height: var(--header-with-search-height);
     display: flex;
-    margin-top: 2%;
     align-items: center;
 }
 
@@ -790,7 +790,7 @@ html {
     height: 40px;
     flex: 1;
     align-items: center;
-    border-radius: 10px 10px 10px 10px ;
+    border-radius: 10px 10px 10px 10px;
 }
 
 /*cart gio hang*/
@@ -804,6 +804,7 @@ html {
     display: inline-block;
     /*th nho k ke thu chieu ngang*/
     padding: 0 6px;
+    left: -20%;
     cursor: pointer;
 
 }
@@ -878,7 +879,6 @@ html {
     font-size: 1.4rem;
     line-height: 1.4rem;
     border-radius: 10px;
-    border: 2px solid #EE4d2d;
 }
 
 /*có hang*/
@@ -1073,7 +1073,7 @@ html {
     color: var(--text-color);
     /* de nham color bam k ra chu dau kk nho doi*/
     padding: 0 16px;
-    border-radius: 2px;
+    border-radius: 10px;
 
 }
 
@@ -1189,9 +1189,17 @@ html {
     display: none;
 }
 
+.header_navbar-second {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: var(--header-navbar-second);
+}
+
 .footer {
     border-top: 4px solid var(--main--color);
-    padding-top: 16px;
+    padding-top: 100px;
 
 }
 
