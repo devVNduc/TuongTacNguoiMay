@@ -214,18 +214,106 @@ shopping_cart
                 
             </div></header>
             <nav class="header_navbar-second">
-                <li class="header_navbar-item-second">
-                    <a href="" class="header_navbar-item-second-link"></a>
-                    <a href="" class="header_navbar-item-second-link"></a>
-                    <a href="" class="header_navbar-item-second-link"></a>
-                    <a href="" class="header_navbar-item-second-link"></a>
-                    <a href="" class="header_navbar-item-second-link"></a>
-                    <a href="" class="header_navbar-item-second-link"></a>
-                </li>
+                <div class="header_navbar-item-second">
+                    <div class="header_navbar-item-second-link">
+                        <button class="header_navbar-item-second-btn">Trang chủ</button>
+                
+                    
+                        <button class="header_navbar-item-second-btn">Rượu vang</button>
+                 
+                    
+                        <button class="header_navbar-item-second-btn">Rượu manh</button>
+                    
+                   
+                        <button class="header_navbar-item-second-btn">Rượu nhe</button>
+                   
+                   
+                        <button class="header_navbar-item-second-btn">Bia và Cider</button>                
+                        <button class="header_navbar-item-second-btn">Phụ kiện rượu</button>
+                    </div>
+                </div>
             </nav>
-        <main class="order-main">
+        <div class="order-main">
+            <div class="grid">
+                <div class="grid__grow">
+                    <div class="order-main-set">
+                        <form action="" class="pay__form">
+                            <div class="pay__form-title">
+                                <div class="pay__form-title-1">Thanh toán</div>
+                                <div class="pay__form-title-2">Thông tin người nhận</div>
+                            </div>
+                            <div class="pay__form-infor">
 
-        </main>
+                                <label for="name">Họ tên</label><br>
+                                <input type="text" name="name" id="name" placeholder="Nhập họ tên"><br>
+                            
+                                <label for="SĐT">Số điện thoại</label><br>
+                                <input type="text" name="phone" id="phone" placeholder="Nhập số điện thoại"><br>
+                            
+                                <label for="SĐT">Email</label><br>
+                                <input type="text" name="email" id="email" placeholder="Nhập email"><br>
+                                <label for="DiaChiNhanHang">Địa chỉ nhận hàng</label>
+                                <div class="list_address">
+                                    <div class="sloppy-1"></div>
+                                    <select id="city" name="cities-1">
+                                        <option value="title">Tỉnh/Thành phố</option>
+                                        <option value="city">Hà Nội</option>
+                                        <option value="city">Thái Bình</option>
+                                    </select>
+                                    <div class="sloppy-2"></div>
+                                     <select id="city" name="cities-2" >
+                                        <option value="title">Quận/Huyện</option>
+                                        <option value="city">Hà Nội</option>
+                                        <option value="city">Thái Bình</option>
+                                    </select>
+                                    <div class="sloppy-3"></div>
+                                     <select id="city" name="cities-3" >
+                                        <option value="title">Phường/Xã</option>
+                                        <option value="city">Hà Nội</option>
+                                        <option value="city">Thái Bình</option>
+                                    </select>
+                                </div>
+                                <input type="text" name="address" placeholder="Nhập địa chỉ chụ thể">
+                                <label for="note" id="note">Ghi chú</label>
+                                <input type="text" name="note" placeholder="Nhập ghi chú">
+                                <label for="note" id="how_pay">Phương thức thanh toán</label>
+                                <div class="choose_pay">
+                                    <div class="cash choose_pay-form">
+                                        <div class="choose_pay-tick">
+                                            <input type="radio" class="choose_pay-tick-checkbox" name="option" value="option1">
+                                            <label for="cash">Tiền mặt (COD)</label>
+                                        </div>
+                                        <div class="choose_pay-explain">
+                                           <div>CHỈ ÁP DỤNG TIỀN MẶT ĐỐI VỚI NỘI THÀNH HÀ NỘI</div>
+                                        </div>
+                                    </div>
+                                    <div class="bank choose_pay-form">
+                                         <div class="choose_pay-tick">
+                                            <input type="radio" class="choose_pay-tick-checkbox" name="option" value="option2">
+                                            <label for="bank">Chuyển khoản ngân hàng</label>
+                                        </div>
+                                        <div class="choose_pay-explain">
+                                            <div>Vì lí do bảo mật cũng như để tiện cho việc kiểm tra đơn hàng, khi quý 
+khách chọn hình thức Chuyển Khoản Ngân Hàng, nhân viên CSKH 
+của FiveMan sẽ ngay lập tức liên hệ với quý khách để xác nhận
+thông tin và cung cấp số tài khoản ngân hàng để quý khách 
+tiến hành thanh toán. Cám ơn sự tin tưởng của quý khách.</div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </form>
+                    
+                    <div class="infor__product__form">
+
+                    </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
         <footer class="footer">
             <div class="grid">
                 <div class="grid__row">
@@ -236,10 +324,13 @@ shopping_cart
                                 <a href="" class="footer-item-link">Trung Tâm Trợ Giúp</a>
                             </li>
                             <li class="footer-list-item">
-                                <a href="" class="footer-item-link">Shop-Toán</a>
+                                <a href="" class="footer-item-link">Hướng dẫn mua hàng</a>
                             </li>
                             <li class="footer-list-item">
-                                <a href="" class="footer-item-link">Hướng Dẫn Mua Hàng</a>
+                                <a href="" class="footer-item-link">Chăm sóc khách hàng</a>
+                            </li>
+                              <li class="footer-list-item">
+                                <a href="" class="footer-item-link">Trả hàng & Hoàn tiền</a>
                             </li>
                         </ul>
                     </div>
@@ -261,22 +352,19 @@ shopping_cart
                         <h3 class="footer-heading">Danh Mục</h3>
                         <ul class="footer-list">
                             <li class="footer-list-item">
-                                <a href="" class="footer-item-link">Dương Dâm Dật</a>
+                                <a href="" class="footer-item-link">Rượu vang</a>
                             </li>
                             <li class="footer-list-item">
-                                <a href="" class="footer-item-link">Đức Chăn Rau</a>
+                                <a href="" class="footer-item-link">Rượu mạnh</a>
                             </li>
                             <li class="footer-list-item">
-                                <a href="" class="footer-item-link">Đạt Lý Thuyết</a>
+                                <a href="" class="footer-item-link">Rượu nhẹ</a>
                             </li>
                             <li class="footer-list-item">
-                                <a href="" class="footer-item-link">Anh Sâu Top1</a>
+                                <a href="" class="footer-item-link">Bia và cider</a>
                             </li>
                             <li class="footer-list-item">
-                                <a href="" class="footer-item-link">Đăng Dark</a>
-                            </li>
-                            <li class="footer-list-item">
-                                <a href="" class="footer-item-link">Toán Gboy</a>
+                                <a href="" class="footer-item-link">phụ kiện rượu</a>
                             </li>
                         </ul>   
                     </div>
@@ -308,23 +396,24 @@ shopping_cart
                     <div class="grid__column-2-4">
                         <h3 class="footer-heading">Vào Cửa Hàng Trên Ứng Dụng</h3>
                         <div class="footer-download">
-                            <img src="./asessts/img/shop.code.png" alt="Download QR" class="footer-img-QR">
+                            <img src="/img/shop.code.png" alt="Download QR" class="footer-img-QR">
                             <div class="footer-download-app">
                                 <a href="" class="footer-download-app-link">
-                                    <img src="./asessts/img/tao code.png" alt="App Store" class="footer-download-img-app">                    
+                                    <img src="/img/tao code.png" alt="App Store" class="footer-download-img-app">                    
                                 </a>
                                 <a href="" class="footer-download-app-link">
-                                    <img src="./asessts/img/vp.code.png" alt="Google Play" class="footer-download-img-app">    
+                                    <img src="/img/vp.code.png" alt="Google Play" class="footer-download-img-app">    
                                 </a>
-                            </div>
-                        
+                            </div>                     
                         </div>
                     </div>
                 </div>
             </div>
             <div class="footer-bottom">
                 <div class="grid">
-                        <p class="footer-text">Bản Quyền Thuộc Về Toán Muốn Thua (Xululu)</p>
+                        <p class="footer-text1">UỐNG RƯỢU CÓ TRÁCH NHIỆM</p>
+                        <p class="footer-text2">Các sản phẩm rượu không dành cho người dưới 18 tuổi và phụ nữ đang mang thai</p>
+
                 </div>
             </div>
         </footer>

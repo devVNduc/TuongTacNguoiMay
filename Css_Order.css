@@ -1197,6 +1197,230 @@ html {
     background-color: var(--header-navbar-second);
 }
 
+.header_navbar-item-second-link {
+    display: flex;
+    height: 50px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+
+}
+
+.header_navbar-item-second-link .header_navbar-item-second-btn {
+    padding: 0px 15px;
+    border: 0px;
+    background-color: #F5DEB3;
+    font-style: inherit;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+
+}
+
+.order-main {
+    background-color: white;
+    margin-top: 50px;
+}
+
+.order-main-set {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.pay__form {
+    display: inline-block;
+    position: relative;
+    border: 1px solid black;
+    width: 785px;
+    height: 1094px;
+}
+
+.pay__form-title {
+    display: block;
+    /* position: absolute; */
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+.pay__form-title-1 {
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.pay__form-title-2 {
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    bottom: -10px;
+}
+
+.infor__product__form {
+    display: inline-block;
+    height: 1093px;
+    width: 495px;
+    background-color: #EFEBE4;
+}
+
+
+.pay__form-infor {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.pay__form-infor>label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 10px;
+
+}
+
+.pay__form-infor>label#note {
+    margin-top: 30px;
+
+}
+
+.pay__form-infor input[type="text"] {
+    width: 95%;
+    font-size: 16px;
+    height: 41px;
+    margin-top: 10px;
+}
+
+.pay__form-infor input[name="address"] {
+    margin-top: 20px;
+}
+
+.pay__form-infor input[name="note"] {
+    margin-top: 20px;
+}
+
+.list_address select[name="cities-1"] {
+    position: absolute;
+    width: 200px;
+    font-size: 16px;
+    height: 41px;
+
+}
+
+.list_address select[name="cities-2"] {
+    position: absolute;
+    width: 200px;
+    font-size: 16px;
+    height: 41px;
+    right: 39px;
+
+
+}
+
+.list_address select[name="cities-3"] {
+    position: absolute;
+    width: 200px;
+    font-size: 16px;
+    height: 41px;
+    right: 288px;
+}
+
+.list_address .sloppy-1::after {
+    content: "";
+    display: block;
+    position: relative;
+    height: 41px;
+    width: 1px;
+    background-color: black;
+    right: -180px;
+    z-index: 1;
+}
+
+.list_address .sloppy-2::after {
+    content: "";
+    display: block;
+    position: relative;
+    height: 41px;
+    width: 1px;
+    background-color: black;
+    right: -75px;
+    z-index: 1;
+}
+
+.list_address .sloppy-3::after {
+    content: "";
+    display: block;
+    position: relative;
+    height: 41px;
+    width: 1px;
+    background-color: black;
+    right: 57px;
+    z-index: 1;
+}
+
+.list_address {
+    display: flex;
+    position: relative;
+    padding-top: 10px;
+    justify-content: space-between;
+
+}
+
+.choose_pay {
+    display: flex;
+    margin-top: 15px;
+    position: relative;
+    flex-direction: column;
+}
+
+.choose_pay .cash {
+    position: relative;
+    margin-bottom: 50px;
+
+}
+
+.choose_pay-tick .choose_pay-tick-checkbox {
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.choose_pay-form {
+    max-width: 95%;
+}
+
+.choose_pay-form .choose_pay-tick {
+
+    border: 1px solid black;
+    font-size: 16px;
+}
+
+.choose_pay-form .choose_pay-explain {
+
+    border: 1px solid black;
+    font-size: 16px;
+    height: 100px;
+}
+
+.choose_pay-explain div {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.choose_pay-explain div:nth-of-type(1) {}
+
+.choose_pay-explain div:nth-of-type(2) {}
+
 .footer {
     border-top: 4px solid var(--main--color);
     padding-top: 100px;
@@ -1264,7 +1488,15 @@ html {
 
 }
 
-.footer-text {
+.footer-text1 {
+    margin: 0;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #737373;
+    font-weight: bold;
+}
+
+.footer-text2 {
     margin: 0;
     text-align: center;
     font-size: 1.2rem;
