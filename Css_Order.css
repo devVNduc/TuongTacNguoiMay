@@ -1409,7 +1409,18 @@ html {
 
     border: 1px solid black;
     font-size: 16px;
-    height: 100px;
+}
+
+.cash .choose_pay-explain {
+    height: 70px;
+}
+
+.bank .choose_pay-explain {
+    height: 120px;
+}
+
+#how_pay {
+    margin-top: 22px !important;
 }
 
 .choose_pay-explain div {
@@ -1417,9 +1428,16 @@ html {
     margin-top: 10px;
 }
 
-.choose_pay-explain div:nth-of-type(1) {}
-
-.choose_pay-explain div:nth-of-type(2) {}
+.support {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
 
 .footer {
     border-top: 4px solid var(--main--color);
