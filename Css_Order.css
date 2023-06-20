@@ -1263,7 +1263,7 @@ html {
     bottom: -10px;
 }
 
-.infor__product__form {
+.infor__order__form {
     display: inline-block;
     height: 1093px;
     width: 495px;
@@ -1417,6 +1417,8 @@ html {
 
 .bank .choose_pay-explain {
     height: 120px;
+    text-align: justify;
+    padding-right: 15px;
 }
 
 #how_pay {
@@ -1437,6 +1439,102 @@ html {
     font-size: 16px;
     line-height: 19px;
     color: #000000;
+}
+
+.infor__order_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 70px;
+    margin-left: 30px;
+    position: relative;
+}
+
+.infor__order_title::before {
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 2px;
+    width: 90%;
+    opacity: 0.3;
+    bottom: -45px;
+
+}
+
+.table__order {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 15%;
+    margin-left: 30px;
+}
+
+.table__order::after {
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 2px;
+    width: 32%;
+    opacity: 0.3;
+}
+
+.table__order-row,
+.resut__order-row {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 45px;
+
+}
+
+.table__order-col1 {
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.table__order-col2 {
+    display: inline-block;
+}
+
+.resut__order-row {
+    margin-top: 40px;
+    margin-left: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+.result__order-col1 {
+    display: inline-block;
+}
+
+.result__order-col2 {
+    display: inline-block;
+}
+
+.btn__order {
+    display: flex;
+    margin-top: 35px;
+    justify-content: center;
+}
+
+.btn__order-active {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    background-color: #7B181A;
+    border: none;
+    line-height: 19px;
+    height: 40px;
+    width: 250px;
 }
 
 .footer {
